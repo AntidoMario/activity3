@@ -1,0 +1,255 @@
+
+    .sectionOne{
+        margin: 10px 30%;
+        display: flex;
+    }
+
+    .sectionTwo{
+        margin: 50px 10%;
+        display: flex;
+    }
+
+    .ClassZ{
+        width: 50%;
+        border: 2px solid hidden;
+        padding: 5px;
+    }
+
+    .ClassI{
+        border: 2px solid brown;
+        outline: 2px solid gray;
+        outline-offset: -7px;
+        border-radius: 50%;
+        margin: 1%;
+        overflow: hidden;
+        height: 300px;
+        box-shadow: 30px -20px gray;
+    }
+
+    .ClassI{
+        margin-top: 50px;
+    }
+
+    .ClassI img:hover{
+        transition: 0.3s;
+        transform: scale(1.4);
+    }
+
+    .sectionOne button{
+        padding: 7px 7px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 5px #999;
+    }
+
+    .button:active {
+        background-color: gray;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    body{
+        background-color: lightgray;
+    }
+
+    .sectionTwo ul{
+        padding-top: 200px;
+    }
+
+    .sectionTwo li{
+        list-style-type: none;
+    }
+
+    .sectionTwo h1{
+        text-align: center;
+    }
+
+    /*Card cont*/
+    .container{
+        margin-top: -180px;
+        display: flex;
+    }
+
+    .card1{
+        width: 50%;
+    }
+
+    .card2{
+        width: 50%;
+    }
+
+    .card2 .btn2{
+        margin-top: 25px;
+    }
+
+    .card3{
+        width: 50%;
+    }
+
+    .img1:hover{
+        transition: 0.3s;
+        transform: scale(1.4);
+    }
+
+    
+    .img2:hover{
+        transition: 0.3s;
+        transform: scale(1.4);
+    }
+
+    
+    .img3:hover{
+        transition: 0.3s;
+        transform: scale(1.4);
+    }
+
+
+
+    /*button for 1*/
+    .btn1{
+        display: inline-block;
+        padding: 7px 7px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 5px #999;
+    }
+
+    .btn1 button:hover{
+        background-color: lightblue;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    .btn1:active {
+        background-color: lightslategray;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+
+    /*button2*/
+    .btn4{
+        margin-top: 1px;
+        padding: 7px 7px;
+        cursor: pointer;
+        text-decoration: none;
+        outline: none;
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 5px #999;
+    }
+
+    .btn4 button:hover{
+        background-color: lightblue;
+    }
+
+    .btn4:active {
+        background-color: lightslategray;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+        /*button 3*/
+        .btn3{
+            margin-top:1px;
+            padding: 7px 7px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            background-color: gray;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 5px #999;
+        }
+    
+        .btn3 button:hover{
+            background-color: lightblue;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+    
+        .btn3:active {
+            background-color: lightslategray;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        hr{
+            box-shadow: 1px 5px gray;
+        }
+
+        footer{
+            text-align: center;
+            margin-top: 20px;
+        }
+        /* This is the card Img*/
+        .img1{
+            border: 2px solid gray;
+            border-radius: 10px;
+            box-shadow: 2px 3px darkgray;
+        }
+
+        .img2{
+            border: 2px solid gray;
+            border-radius: 10px;
+            box-shadow: 2px 3px darkgray;
+        }
+
+        .img3{
+            border: 2px solid gray;
+            border-radius: 10px;
+            box-shadow: 2px 3px darkgray;
+        }
+
+        .p2{
+            background-color: darkgray;
+            width: 100%;
+            height: 180px;
+            padding: 10px;  
+            border-radius: 5px;
+        }
+
+        .flex-container {
+            display: flex;
+          }
+
+          .flex-container .sideb{
+            padding: 1px;
+            background-color: #6e6762af;
+            margin-left: 5px;
+            width: 200px;
+            height: 316px;
+            border-radius: 10px;
+          }
+
+          .sideb p{
+            padding-left: 10px;
+          }
+
+          .sideb:hover{
+            transition: 1s;
+            transform: scale(1.4);
+          }
+
+          span{
+            text-decoration: overline;
+          }
+
+          /*Img in data one*/
+          .box{
+            margin-left:  500px;
+            border-radius: 50%;
+            width: 200px;
+            height: 100px;
+            border: 2px solid;
+          }
